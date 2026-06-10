@@ -314,6 +314,9 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -352,6 +355,9 @@
   }
   .\!mb-5 {
     margin-bottom: calc(var(--spacing) * 5) !important;
+  }
+  .\!mb-6 {
+    margin-bottom: calc(var(--spacing) * 6) !important;
   }
   .\!mb-7 {
     margin-bottom: calc(var(--spacing) * 7) !important;
@@ -552,6 +558,9 @@
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -671,6 +680,9 @@
   }
   .p-0 {
     padding: calc(var(--spacing) * 0);
+  }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
@@ -810,6 +822,9 @@
   }
   .text-\[clamp\(24px\,3\.4vw\,34px\)\] {
     font-size: clamp(24px, 3.4vw, 34px);
+  }
+  .text-\[clamp\(26px\,4vw\,40px\)\] {
+    font-size: clamp(26px, 4vw, 40px);
   }
   .text-\[clamp\(28px\,4vw\,44px\)\] {
     font-size: clamp(28px, 4vw, 44px);
